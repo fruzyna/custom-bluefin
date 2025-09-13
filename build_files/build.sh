@@ -10,7 +10,7 @@ dnf5 install -y \
 
 # add other desired packages
 dnf5 install -y \
-    gimp \
+    gnome-connections \
     gnome-boxes \
     gnome-shell-extension-drive-menu \
     java-latest-openjdk \
