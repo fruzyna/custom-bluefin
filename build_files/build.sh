@@ -29,5 +29,5 @@ dnf5 remove -y \
     ublue-brew \
     ublue-motd
 
-cp /ctx/post-install.sh /var/opt
-chmod +x /var/opt/post-install.sh
+cp /ctx/post-install.sh /
+chmod +x /post-install.sh
