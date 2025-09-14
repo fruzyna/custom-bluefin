@@ -10,16 +10,9 @@ dnf5 install -y \
 
 # add other desired packages
 dnf5 install -y \
-    gnome-connections \
-    gnome-boxes \
+    firefox \
     gnome-shell-extension-drive-menu \
-    java-latest-openjdk \
-    keepassxc \
-    kicad \
-    libreoffice \
-    openscad \
-    rpi-imager \
-    vlc
+    java-latest-openjdk
 
 # remove default gnome extensions
 dnf5 remove -y \
@@ -32,7 +25,9 @@ dnf5 remove -y \
 
 # remove unwanted packages
 dnf5 remove -y \
-    input-remapper \
     tailscale \
     ublue-brew \
     ublue-motd
+
+cp /ctx/post-install.sh /var/opt
+chmod +x /var/opt/post-install.sh
