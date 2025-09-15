@@ -12,7 +12,7 @@ dnf5 install -y \
 dnf5 install -y \
     firefox \
     gnome-shell-extension-drive-menu \
-    java-21-openjdk
+    java-21-openjdk-devel
 #    java-latest-openjdk
 
 # remove default gnome extensions
