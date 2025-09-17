@@ -7,7 +7,6 @@ gnome-extensions enable launch-new-instance@gnome-shell-extensions.gcampax.githu
 flatpak install --noninteractive flathub \
     org.gnome.Connections \
     org.gnome.Boxes \
-    org.keepassxc.KeePassXC \
     org.kicad.KiCad \
     org.libreoffice.LibreOffice \
     org.openscad.OpenSCAD \
