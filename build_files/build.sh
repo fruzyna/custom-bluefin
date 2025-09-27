@@ -13,7 +13,9 @@ dnf5 install -y \
     firefox \
     gnome-shell-extension-drive-menu \
     java-21-openjdk-devel \
-    keepassxc
+    keepassxc \
+    pam-u2f \
+    pamu2fcfg
 
 # remove default gnome extensions
 dnf5 remove -y \
