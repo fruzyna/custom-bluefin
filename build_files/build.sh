@@ -1,18 +1,10 @@
 #!/bin/bash
 set -ouex pipefail
 
-# add WildRank dependencies
-dnf5 install -y \
-    python3-fastapi-slim+standard \
-    python3-python-multipart \
-    python3-requests \
-    python3-uvicorn+standard
-
 # add other desired packages
 dnf5 install -y \
     firefox \
     gnome-shell-extension-drive-menu \
-    java-21-openjdk-devel \
     keepassxc \
     pam-u2f \
     pamu2fcfg
